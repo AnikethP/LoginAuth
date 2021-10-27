@@ -10,6 +10,7 @@
 		049A610BB945BA8506A99D80 /* Pods_LoginApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5EE204F05D2DABD305E2E8 /* Pods_LoginApp.framework */; };
 		230A071727223D410036C1C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 230A071627223D410036C1C4 /* GoogleService-Info.plist */; };
 		230A071927224EF80036C1C4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230A071827224EF80036C1C4 /* Constants.swift */; };
+		23216D2827252AF400D62C94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23216D2727252AF400D62C94 /* ContentView.swift */; };
 		2333255D271EB348007A0AC9 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2333255C271EB348007A0AC9 /* Utilities.swift */; };
 		23F8F1A0271E9CC5001CC6B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F8F19F271E9CC5001CC6B9 /* AppDelegate.swift */; };
 		23F8F1A2271E9CC5001CC6B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F8F1A1271E9CC5001CC6B9 /* SceneDelegate.swift */; };
@@ -26,6 +27,7 @@
 		211DB784BB33EF6C4AD5FF55 /* Pods-LoginApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginApp.debug.xcconfig"; path = "Target Support Files/Pods-LoginApp/Pods-LoginApp.debug.xcconfig"; sourceTree = "<group>"; };
 		230A071627223D410036C1C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		230A071827224EF80036C1C4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		23216D2727252AF400D62C94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2333255C271EB348007A0AC9 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		23F8F19C271E9CC5001CC6B9 /* LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F8F19F271E9CC5001CC6B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				23F8F19F271E9CC5001CC6B9 /* AppDelegate.swift */,
+				23216D2727252AF400D62C94 /* ContentView.swift */,
 				2333255B271EB2EA007A0AC9 /* Helpers */,
 				23F8F1B9271E9DB4001CC6B9 /* ViewControllers */,
 				23F8F1A1271E9CC5001CC6B9 /* SceneDelegate.swift */,
@@ -246,6 +249,7 @@
 				2333255D271EB348007A0AC9 /* Utilities.swift in Sources */,
 				23F8F1A0271E9CC5001CC6B9 /* AppDelegate.swift in Sources */,
 				23F8F1A2271E9CC5001CC6B9 /* SceneDelegate.swift in Sources */,
+				23216D2827252AF400D62C94 /* ContentView.swift in Sources */,
 				23F8F1B6271E9D85001CC6B9 /* SignUpViewController.swift in Sources */,
 				23F8F1B8271E9DAB001CC6B9 /* HomeViewController.swift in Sources */,
 				230A071927224EF80036C1C4 /* Constants.swift in Sources */,

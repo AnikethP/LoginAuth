@@ -7,6 +7,7 @@
 
 import UIKit
 import FirebaseAuth
+import SwiftUI
 
 class LogInViewController: UIViewController {
 
@@ -18,7 +19,6 @@ class LogInViewController: UIViewController {
     @IBOutlet weak var errorLabel: UILabel!
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -28,9 +28,9 @@ class LogInViewController: UIViewController {
     }
     func setUpElements(){
         errorLabel.alpha = 0
-        Utilities.styleTextField(emailTextField)
-        Utilities.styleTextField(passwordTextField)
-        Utilities.styleFilledButton(LoginButton)
+        Utilities.styleTextFieldYellow(emailTextField)
+        Utilities.styleTextFieldYellow(passwordTextField)
+        Utilities.styleFilledButtonYellow(LoginButton)
     }
 
     /*
@@ -81,4 +81,10 @@ class LogInViewController: UIViewController {
         view.window?.makeKeyAndVisible()
     }
     
+}
+
+struct LogInViewController_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+    }
 }
